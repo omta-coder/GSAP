@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    text-transform: uppercase;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav h3{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 500;
+}
+#main h1{
+    font-family: montserrat;
+    font-size: 100px;
+    text-transform: uppercase;
+    width: 65%;
+    margin-left: 280px;
+    line-height: 100px;
+    position: relative;
+    font-weight: 600;
+    z-index: 9;
+}
+#main h1:nth-child(2){
+    margin-top: 120px;
+}
+#main h1:nth-child(3){
+    text-align: center;
+}
+#main h1:nth-child(4){
+    text-align: center;
+}
+#main img{
+    height: 400px;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+}
+#img2{
+    rotate: 10deg;
+}
+#img1{
+    rotate: 20deg;
+}
+#header{
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 50px;
+}
+#header h4{
+    font-size: 13px;
+    font-weight: 500;
+}
+#header h4:nth-child(2){
+    text-align: center;
+}
